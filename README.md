@@ -1,6 +1,12 @@
 # VirtualDisplayUtil
 The uitl class to add a virtual display without needing a display dummy plug.
 
+## Preliminary
+Install pre-requisite tools and libs before compilation.
+```
+$ sudo apt install g++ libx11-dev libxrandr-dev
+```
+
 ## Build
 Open a terminal and execute `make` under this project src.
 ```
