@@ -1,0 +1,2 @@
+// This is a script that is convenient to compile and execute tests.
+make && ./virtual_display_util_test
