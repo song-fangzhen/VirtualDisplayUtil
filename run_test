@@ -1,2 +1,5 @@
-// This is a script that is convenient to compile and execute tests.
-make && ./virtual_display_util_test
+# This is a script that is convenient to compile and execute tests.
+printf "1. Build/Rebuild the executable file:\n" &&
+make && printf "\n" &&
+printf "2. Executing test:\n" &&
+./virtual_display_util_test
